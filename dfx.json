@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "icp-eth-bridge-backend": {
+      "main": "src/icp-eth-bridge-backend/main.mo",
+      "type": "motoko"
+    },
+    "icp-eth-bridge-frontend": {
+      "dependencies": [
+        "icp-eth-bridge-backend"
+      ],
+      "source": [
+        "src/icp-eth-bridge-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "icp-eth-bridge-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
