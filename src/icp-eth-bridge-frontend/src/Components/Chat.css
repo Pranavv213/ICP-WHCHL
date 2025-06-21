@@ -1,0 +1,24 @@
+.people{
+
+    display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #1876d1;
+  cursor: pointer;
+
+}
+
+.people:hover{
+
+    background-color: #464748;
+    color:white;
+    display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #1876d1;
+  cursor: pointer;
+    
+
+}

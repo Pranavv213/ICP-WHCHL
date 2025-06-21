@@ -1,0 +1,60 @@
+/* Background & layout */
+.coming-soon-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif; /* Optional futuristic font */
+  }
+  
+  /* Content centering */
+  .coming-soon-content {
+    text-align: center;
+    animation: fadeInUp 1.2s ease-out;
+  }
+  
+  /* Headline */
+  .headline {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8e44ad;
+    text-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheadline */
+  .subheadline {
+    font-size: 1.8rem;
+    color: #f1c40f;
+    text-shadow: 0 0 8px #f1c40f;
+    margin-bottom: 30px;
+  }
+  
+  /* Coming Soon Text */
+  .coming-text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ccc;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optional: Futuristic font (include in HTML) */
+  /* Add this in your index.html <head>:
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  */
+  
