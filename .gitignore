@@ -1,25 +1,28 @@
-# Various IDEs and Editors
+# ─── IDEs and Editors ─────────────────────────────
 .vscode/
 .idea/
 **/*~
 
-# Mac OSX temporary files
+# ─── macOS Temporary Files ────────────────────────
 .DS_Store
 **/.DS_Store
 
-# dfx temporary files
+# ─── DFX Temporary Files ──────────────────────────
 .dfx/
 
-# generated files
+# ─── Generated Files ──────────────────────────────
 **/declarations/
 
-# rust
+# ─── Rust ─────────────────────────────────────────
 target/
 
-# frontend code
+# ─── Frontend Code ────────────────────────────────
 node_modules/
 dist/
 .svelte-kit/
 
-# environment variables
+# ─── Environment Variables ────────────────────────
 .env
+
+# ─── Ignored Contracts Folder ─────────────────────
+src/icp-eth-bridge-frontend/src/contracts/
