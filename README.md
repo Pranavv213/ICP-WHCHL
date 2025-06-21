@@ -1,9 +1,3 @@
-# `FanFi`
-
-Based on your provided PDF, here's a refined and accurate description for **FanFi**, aligned with its core vision and built-in capabilities:
-
----
-
 **FanFi – The World’s First Decentralized Entertainment Finance Platform on Internet Computer (ICP)**
 
 **FanFi** is the world’s first decentralized entertainment finance (DeFi) platform built on the **Internet Computer (ICP)**, designed to tokenize the entertainment industry and monetize culture. It empowers production houses, artists, and creators to launch their own **Intellectual Property Tokens (FIP Tokens)**, enabling fans to become **financial stakeholders** in movies, music, shows, and digital experiences.
