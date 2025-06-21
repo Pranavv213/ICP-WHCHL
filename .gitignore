@@ -25,4 +25,4 @@ dist/
 .env
 
 # ─── Ignored Contracts Folder ─────────────────────
-src/icp-eth-bridge-frontend/src/contracts/
+src/icp-eth-bridge-frontend/src/Contracts/
